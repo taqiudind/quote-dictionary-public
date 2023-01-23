@@ -5,7 +5,7 @@ export async function GetQuote() {
     "https://quotes15.p.rapidapi.com/quotes/random/",
     {
       headers: {
-        "X-RapidAPI-Key": "b97d95007emsh70d49d9e5d9380ap14f3c9jsn7ce68a6ff011",
+        "X-RapidAPI-Key": "API KEY IS CHANGED",
         "X-RapidAPI-Host": "quotes15.p.rapidapi.com",
       },
     }
@@ -19,7 +19,7 @@ export async function GetUrban(inputValue) {
     {
       params: { term: inputValue },
       headers: {
-        "X-RapidAPI-Key": "b97d95007emsh70d49d9e5d9380ap14f3c9jsn7ce68a6ff011",
+        "X-RapidAPI-Key": "API KEY IS CHANGED",
         "X-RapidAPI-Host": "mashape-community-urban-dictionary.p.rapidapi.com",
       },
     }
